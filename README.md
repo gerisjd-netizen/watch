@@ -4,14 +4,6 @@ A DIY smartwatch built around the Seeed Studio XIAO ESP32-C3.
 
 > **Status: work in progress.** The project is under active development, so features, wiring and the hardware layout may change.
 
-![The watch showing the clock screen](images/watch-front.jpg)
-
-## Photos
-
-| Assembled watch | Side view | Custom PCB |
-|:---:|:---:|:---:|
-| ![Front view](images/watch-front.jpg) | ![Angled view](images/watch-angle.jpg) | ![Bare PCB](images/pcb.jpg) |
-
 ## Features
 
 - **Clock**: large HH:MM:SS display with the date shown smaller underneath.
@@ -29,6 +21,11 @@ A DIY smartwatch built around the Seeed Studio XIAO ESP32-C3.
 | DS3231 RTC module | I2C, keeps the time |
 | 3 push buttons | UP, OK, DOWN |
 | Rechargeable battery | Connected directly, no power switch needed |
+
+<img width="300" alt="IMG_20261119_221725" src="https://github.com/user-attachments/assets/d14f18b9-b67b-4cf9-85af-c10969b28a8e" /> <img width="300" alt="IMG_20261119_221655" src="https://github.com/user-attachments/assets/ca9aea57-8a37-420c-aa0b-71c2b04c6147" />
+
+
+
 
 ### Pinout
 
@@ -80,6 +77,9 @@ The watch has three buttons: **UP**, **OK** and **DOWN**.
 2. Use UP/DOWN to change the value (hold for fast repeat) and OK to go to the next field: hour, minute, second, year, month, day.
 3. Press OK on the last field (day) to save the time to the RTC.
 4. Holding OK for 3 seconds exits without saving.
+
+<img width="300" alt="IMG_20261119_221758" src="https://github.com/user-attachments/assets/e602d91b-54fc-4676-ba9d-060150989abc" />
+
 
 ## Building
 
