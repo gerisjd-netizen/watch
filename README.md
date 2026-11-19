@@ -1,9 +1,16 @@
-# watch
 # DIY Smartwatch
 
 A DIY smartwatch built around the Seeed Studio XIAO ESP32-C3.
 
 > **Status: work in progress.** The project is under active development, so features, wiring and the hardware layout may change.
+
+![The watch showing the clock screen](images/watch-front.jpg)
+
+## Photos
+
+| Assembled watch | Side view | Custom PCB |
+|:---:|:---:|:---:|
+| ![Front view](images/watch-front.jpg) | ![Angled view](images/watch-angle.jpg) | ![Bare PCB](images/pcb.jpg) |
 
 ## Features
 
