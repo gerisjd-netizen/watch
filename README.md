@@ -100,4 +100,4 @@ This is an early version. More features are planned.
 
 ## License
 
-Add your license here.
+MIT licence
